@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+}
+#hero-header{
+    background-image: url('./images/h1_hero.png.webp');
+    background-position: center center;
+}
+.header-btn{
+    background-color: #FF9F68;
+}
