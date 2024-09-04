@@ -5,6 +5,12 @@ body{
     background-image: url('./images/h1_hero.png.webp');
     background-position: center center;
 }
-.header-btn{
+.orange-btn{
     background-color: #FF9F68;
+}
+/* .courses-row{
+    margin-top: 380px !important;
+} */
+.header{
+    gap: 200px;
 }
