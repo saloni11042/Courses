@@ -14,3 +14,20 @@ body{
 .header{
     gap: 200px;
 }
+.join-btn{
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, salmon 50%, lightblue 50%) right;
+    background-size: 204%;
+    transition: .5s ease-out;
+}
+.join-btn:hover {
+    background-position: left;
+}
+.skills-icon{
+    background: linear-gradient(to bottom, #eae2fe 0%, #a376ff 1%, #ea68ff 98%, #ec7dfe 99%, #f3f3fa 99%, #f4f5fa 100%) !important;
+    height: 70px;
+    width: 70px;
+}
+ul>li::marker{
+    content: url('./images/right-icon.svg');
+}
