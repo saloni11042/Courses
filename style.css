@@ -31,3 +31,7 @@ body{
 ul>li::marker{
     content: url('./images/right-icon.svg');
 }
+
+.expert-card{
+    border: none;
+}
